@@ -1,6 +1,10 @@
 import 'dart:io';
 import 'dart:math' as math;
 
+/*
+ * Please note that you will only get all three achievements when you solve this in bash
+ * (Bash rider achievement: Solve "Horse-racing Duals" problem in Bash and get a 100% score.)
+ */
 void main() {
     int numberOfHorses = int.parse(stdin.readLineSync());
     List<Horse> horses = new List<Horse>();
